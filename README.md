@@ -34,3 +34,13 @@ To run this project, you will need Python installed on your system.
     ```
     
 
+## Project Structure
+
+This project is organized as follows:
+
+.
+├── main.py # Contains the main logic and function calls for BookBot.
+├── stats.py # Contains all the helper functions for text analysis (word counting, character frequency, etc.).
+├── books/ # Directory to store the text files you want to analyze.
+│ └── frankenstein.txt # An example text file for analysis.
+└── README.md # This very file, providing project overview and instructions.

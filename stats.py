@@ -1,9 +1,5 @@
 def get_words_count(text):
-
-    words = []
-    words = text.split()
-
-    return len(words)
+    return len(text.split())
 
 def get_book_text(file_path):
     try:
@@ -14,15 +10,15 @@ def get_book_text(file_path):
 
 def count_each_character(text):
     
-    word_count = {}
+    char_count = {}
     for character in text :
     
-        if character.lower() in word_count:
-            word_count[character.lower()] += 1 
+        if character.lower() in char_count:
+            char_count[character.lower()] += 1 
         else:
-            word_count[character.lower()] = 1
+            char_count[character.lower()] = 1
     
-    return word_count 
+    return char_count 
 
 def convert_dictionary(dictionary) :
     my_dictionary_list = []
